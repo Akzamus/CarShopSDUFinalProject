@@ -1,4 +1,6 @@
-
+header a {
+    text-decoration: none;
+}
 /* мобилка  */
 @media (max-width:991px){
     
@@ -65,5 +67,42 @@
     .heading{
         font-size: 3rem;
     }
+    .about .heading{
+        margin-top:200px;
+    }
 
+}
+
+@media (max-width:500px){
+.about .heading{
+    margin-top:150px;
+}
+.products .heading{
+    margin-top:150px;
+}
+
+.review .heading{
+    margin-top:150px;
+}
+
+.contact .heading{
+    margin-top:150px;
+}
+}
+
+@media (max-width:466px){
+    .about .heading{
+        margin-top:200px;
+    }
+    .products .heading{
+        margin-top:200px;
+    }
+    
+    .review .heading{
+        margin-top:200px;
+    }
+    
+    .contact .heading{
+        margin-top:200px;
+    }
 }

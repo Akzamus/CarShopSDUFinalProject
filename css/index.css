@@ -1,3 +1,8 @@
+.login{
+    position: relative;
+    margin-left:100px;
+}
+
 
 /* цвет шрифта */
 :root{
@@ -153,10 +158,11 @@ header .fa-bars{
     display: flex;
     align-items: center;
     min-height: 100vh;
-    background:url(../images/impala.jpg) no-repeat;
+    background:url(../img/impala.jpg) no-repeat;
     background-size: cover;
     background-position: center;
 }
+
 
 .home .content{
     max-width: 50rem;
@@ -179,6 +185,22 @@ header .fa-bars{
     color:#999;
     padding:1rem 0;
     line-height: 1.5;
+}
+
+.about .heading{
+    margin-top:100px;
+}
+
+.products .heading{
+    margin-top:100px;
+}
+
+.review .heading{
+    margin-top:100px;
+}
+
+.contact .heading{
+    margin-top:100px;
 }
 
 .about .row{
