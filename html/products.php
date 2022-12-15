@@ -1,43 +1,8 @@
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-
-    <link rel="stylesheet" href="../css/index.css">
-    <link rel="stylesheet" href="../css/header.css">
-</head>
-<body>
-    <header>
-
-        <input type="checkbox" name="" id="toggler">
-        <label for="toggler" class="menu"><img src="../img/menu.png" alt="menu" height="25px" width="25px"></label>
-    
-        <a href="../html/main.html" class="logo">AUTO<span class="lol">&</span><span>MOTO</span></a>
-    
-        <nav class="navbar">
-            <a href="../html/main.html">home</a>
-            <a href="../html/aboutus.html">about</a>
-            <a href="../html/product.html">products</a>
-            <a href="../html/review.html">review</a>
-            <a href="../html/contact.html">contact</a>
-        </nav>
-    
-        <div class="icons">
-            
-        <a href="#"><img src="../img/shopping cart.png" alt="shopping-cart" height="45px" width="45px"></a>
-        <a href="#"><img src="../img/profile.png" alt="profile" height="45px" width="45px"></a>
-        
-        </div>
-    
-    </header>
-    
-
+<?php
+$title = "Products";
+require "../php/blocks/header.php";
+?>
  <!-- машины  -->
-
  <section class="products" id="products">
 
     <h1 class="heading"> latest <span>products</span> </h1>
@@ -150,60 +115,6 @@
     </div>
 
   </section>
-
-  <!-- витрина -->
-  <!-- машины  -->
-  <!-- подвал доделать быстрые команды -->
-
-<section class="footer">
-
-    <div class="box-container">
-
-        <div class="box">
-            <h3>quick links</h3>
-            <a href="../html/main.html">home</a>
-            <a href="../html/aboutus.html">about</a>
-            <a href="../html/product.html">products</a>
-            <a href="../html/review.html">review</a>
-            <a href="../html/contact.html">contact</a>
-        </div>
-
-        <div class="box">
-            <h3>extra links</h3>
-            <a href="#">my account</a>
-            <a href="#">my order</a>
-            
-        </div>
-
-        <div class="box">
-            <h3>locations</h3>
-            <a href="../html/contact.html">Kazakhstan</a>
-            <a href="../html/contact.html">Netherlands</a>
-            <a href="../html/contact.html">Spain</a>
-            <a href="../html/contact.html">France</a>
-        </div>
-
-        <div class="box">
-            <h3>contact info</h3>
-            <a href="tel:+77071018191">+77071018191</a>
-            <a href="mailto:timerlanmiratov@gmail.com">autoandmoto@gmail.com</a>
-            <a href="../html/contact.html">Nur-Sultan, Kazakhstan - 010000</a>
-
-        <div class="socialmedia">
-            <a href="https://www.instagram.com/2temik_/"><i class="insta"><img src="../img/insta.png" alt="insta" height="28px" width="28px"></i></a>
-            <a href="https://twitter.com/temik"><i class="twitter"><img src="../img/twitter.png" alt="twitter" height="28px" width="28px"></i></a>
-            <a href="https://wa.me/+77071018191?text=good project!"><i class="wapp"><img src="../img/wapp.png" alt="wapp" height="28px" width="28px"></i></a>
-            <a href="https://ru-ru.facebook.com/ethoted"><i class="fbook"><img src="../img/fbook.png" alt="fbook" height="28px" width="28px"></i></a>
-            </div>
-        </div>
-
-    </div>
-
-    <div class="credit"> created by <span> me </span> | all rights reserved </div>
-
-</section>
-
-<!-- подвал -->
-
- </body>
-</html>
+ <?php
+ require "../php/blocks/footer.php";
+ ?>
