@@ -160,9 +160,8 @@ header .fa-bars{
     display: flex;
     align-items: center;
     min-height: 100vh;
-    background:url(../img/impala.jpg) no-repeat;
     background-size: cover;
-    background-position: center;
+    background: url(../img/impala.jpg) no-repeat center;
 }
 
 
@@ -214,8 +213,7 @@ header .fa-bars{
     align-items: center;
     gap:2rem;
     flex-wrap: wrap;
-    padding:2rem 0;
-    padding-bottom: 3rem;
+    padding: 2rem 0 3rem;
 }
 
 .about .row .video-container{
@@ -457,8 +455,7 @@ header .fa-bars{
     position:relative;
     border:2px solid black;
     border-radius: 7px;
-    padding: 5px;
-    padding-right:100px;
+    padding: 5px 100px 5px 5px;
 }
 
 .contact .row img{
