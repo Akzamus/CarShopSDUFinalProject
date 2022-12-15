@@ -3,7 +3,6 @@
     margin-left:100px;
 }
 
-
 /* цвет шрифта */
 :root{
     --шрифт1:#315e6a;
@@ -105,6 +104,9 @@ header{
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
 }
 
+header .menu{
+    display:none;
+}
 
 header .logo{
     font-size: 4.4rem;
@@ -188,6 +190,10 @@ header .fa-bars{
 }
 
 .about .heading{
+    margin-top:100px;
+}
+
+.cars .heading{
     margin-top:100px;
 }
 
@@ -287,9 +293,9 @@ header .fa-bars{
     position: absolute;
     top:1rem; left:1rem;
     padding:.7rem 1rem;
-    font-size: 2rem;
-    color:var(--шрифт2икнопки);
-    background:rgba(255, 51, 153,.05);
+    font-size: 2.5rem;
+    color: black;
+    background:hwb(0 50% 25% / 0.586);
     z-index: 1;
     border-radius: .5rem;
 }
@@ -425,6 +431,77 @@ header .fa-bars{
     flex-wrap: wrap-reverse;
     gap:1.5rem;
     align-items: center;
+    border:2px solid black;
+    border-radius: 7px;
+    padding: 5px;
+    padding-right:100px;
+}
+.contact .row1{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    gap:1.5rem;
+    align-items: center;
+    position:relative;
+    border:2px solid black;
+    border-radius: 7px;
+    padding: 5px;
+    padding-right:100px;
+    margin:10px;
+}
+
+.contact .row2{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    gap:1.5rem;
+    align-items: center;
+    position:relative;
+    border:2px solid black;
+    border-radius: 7px;
+    padding: 5px;
+    padding-right:100px;
+}
+
+.contact .row img{
+    border-radius: 20px;
+    margin-left:900px;
+}
+
+.contact .row1 img{
+    border-radius: 20px;
+    position:relative;
+    
+}
+
+.contact .row2 img{
+    border-radius: 20px;
+    position:relative;
+    left:800px;
+}
+
+.contact .row .bold{
+    font-size:20px;
+    font-family:'Bebas Neue', cursive;
+    text-align:left;
+   
+    margin:100px;
+}
+
+.contact .row1 .bold{
+    font-size:20px;
+    font-family:'Bebas Neue', cursive;
+    position:absolute;
+    text-align:left;
+   
+    margin:100px;
+}
+
+.contact .row2 .bold{
+    font-size:20px;
+    font-family:'Bebas Neue', cursive;
+    position:absolute;
+    text-align:left;
+   
+    margin:100px;
 }
 
 .footer .box-container{
@@ -457,6 +534,11 @@ header .fa-bars{
 
 .footer .box-container .box  img{
     margin-top: 1rem;
+}
+
+.footer .box-container .box .socialmedia{
+    display:flex;
+    
 }
 
 .footer .credit{

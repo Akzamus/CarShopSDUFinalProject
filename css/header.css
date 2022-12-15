@@ -24,7 +24,7 @@ header a {
 
 @media (max-width:768px){
 
-    header .fa-bars{
+    header .menu{
         display: block;
     }
 
@@ -70,11 +70,17 @@ header a {
     .about .heading{
         margin-top:200px;
     }
+    .bmw .heading{
+        margin-top:200px;
+    }
 
 }
 
 @media (max-width:500px){
 .about .heading{
+    margin-top:150px;
+}
+.bmw .heading{
     margin-top:150px;
 }
 .products .heading{
@@ -92,6 +98,9 @@ header a {
 
 @media (max-width:466px){
     .about .heading{
+        margin-top:200px;
+    }
+    .bmw .heading{
         margin-top:200px;
     }
     .products .heading{
