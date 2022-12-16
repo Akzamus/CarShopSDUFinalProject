@@ -6,26 +6,20 @@
 }
 
 :root {
-    --grey: #F4F2FF;
+
+    --text: #9B9B9B;
     --dark-grey: #B7B7B7;
-
-    --green: #23AE00;
-    --light-green: #BDFFAC;
-
-    --red: #FE2727;
-    --light-red: #FFD2D2;
 
     --blue: #277FFE;
     --dark-blue: #1368E3;
-
-    --bs: #AECFFF;
-    --text: #9B9B9B;
 
     --light-beige: #EEF3DB;
     --beige: #DED0A6;
 
     --light-black: #444343;
     --black: #333;
+
+    --red: #FE2727;
 }
 
 a {
@@ -96,39 +90,9 @@ form.active {
     transition: all .3s ease;
 }
 
-/* Validation */
-.input-group input:focus,
-.input-group input:not(:placeholder-shown) {
-    border-color: var(--blue);
-    background: var(--grey);
-}
-.input-group input:focus + i,
-.input-group input:not(:placeholder-shown) + i {
-    color: var(--blue);
-}
-.input-group input:focus:valid {
-    box-shadow: 0 0 0 4px var(--light-green);
-}
-.input-group input:valid:not(:placeholder-shown) {
-    border-color: var(--green);
-}
-.input-group input:valid:not(:placeholder-shown) + i {
-    color: var(--green);
-}
-.input-group input:invalid:not(:placeholder-shown) {
+.input-group input.invalid {
     border-color: var(--red);
 }
-.input-group input:invalid:not(:placeholder-shown) + i {
-    color: var(--red);
-}
-.input-group input:focus:invalid {
-    box-shadow: 0 0 0 4px var(--light-red);
-}
-.input-group input:focus,
-.input-group input:focus:placeholder-shown {
-    box-shadow: 0 0 0 4px var(--bs);
-}
-/* Validation */
 
 .input-group i {
     position: absolute;
@@ -139,9 +103,9 @@ form.active {
     pointer-events: none;
     transition: all .3s ease;
 }
-.form-group .help-text {
+.form-group .error-text {
     font-size: 12px;
-    color: var(--text);
+    color: var(--red);
 }
 .btn-submit {
     padding: 12px 0;
@@ -154,7 +118,7 @@ form.active {
     border: none;
     font-weight: 500;
     background: var(--black);
-    margin-bottom: 20px;
+    margin: 20px 0;
 }
 .btn-submit:hover {
     background: var(--light-black);
