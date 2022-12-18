@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Verdana, Tahoma, sans-serif;
+    text-transform: none;
 }
 
 :root {
@@ -33,7 +34,8 @@ a:hover {
 }
 
 body {
-    background-color: var(--light-beige);
+    background: url(../img/backgrounds/background-security.jpg) no-repeat center;
+    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -76,6 +78,7 @@ form.active {
 .form-group label {
     display: inline-block;
     margin-bottom: 4px;
+    font-size: 2vh;
 }
 .input-group {
     width: 100%;
@@ -102,11 +105,17 @@ form.active {
     color: var(--text);
     pointer-events: none;
     transition: all .3s ease;
+    font-size: 1.5vh;
 }
 .form-group .error-text {
     font-size: 12px;
     color: var(--red);
 }
+
+form p {
+    font-size: 1.5vh;
+}
+
 .btn-submit {
     padding: 12px 0;
     display: block;
@@ -119,6 +128,7 @@ form.active {
     font-weight: 500;
     background: var(--black);
     margin: 20px 0;
+    font-size: 1.5vh;
 }
 .btn-submit:hover {
     background: var(--light-black);

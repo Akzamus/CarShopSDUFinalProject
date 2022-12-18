@@ -1,5 +1,5 @@
 <?php
-session_start();
+$styles = array("main.css", "header.css", "footer.css", "reviews.css");
 $title = "Reviews";
 require "../php/blocks/header.php";
 ?>

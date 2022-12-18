@@ -1,7 +1,7 @@
 <?php
-session_start();
-$title = "Products";
-require "../php/blocks/header.php";
+    $styles = array("main.css", "header.css", "footer.css", "products.css", "auto.css");
+    $title = "Products";
+    require "../php/blocks/header.php";
 ?>
  <!-- машины  -->
  <section class="products" id="products">
@@ -16,8 +16,7 @@ require "../php/blocks/header.php";
             <div class="image">
                 <img src="../img/bmw%20s1000rr.jpg" alt="" height="150px" width="300px">
                 <div class="icons">
-                    <a href="#" class="cart-btn">add to cart</a>
-                    <a href="../html/auto1.html" class="info">INFO</a>
+                    <a href="auto1.php" class="info">INFO</a>
                 </div>
             </div>
             <div class="content">
@@ -31,9 +30,7 @@ require "../php/blocks/header.php";
             <div class="image">
                 <img src="../img/Bugatti%20La%20Voiture%20Noire.jpg" alt="" height="150px" width="300px">
                 <div class="icons">
-                    
-                    <a href="#" class="cart-btn">add to cart</a>
-                    <a href="../html/auto2.html" class="info">INFO</a>
+                    <a href="auto2.php" class="info">INFO</a>
                 </div>
             </div>
             <div class="content">
@@ -46,8 +43,7 @@ require "../php/blocks/header.php";
             <div class="image">
                 <img src="../img/McLaren%20720s%20Spider.jpg" alt="" height="150px" width="300px">
                 <div class="icons">
-                    <a href="#" class="cart-btn">add to cart</a>
-                    <a href="../html/auto3.html" class="info">INFO</a>
+                    <a href="auto3.php" class="info">INFO</a>
                 </div>
             </div>
             <div class="content">
@@ -60,8 +56,7 @@ require "../php/blocks/header.php";
             <div class="image">
                 <img src="../img/Harley%20Davidson%20Cosmic%20Starship.jpg" alt="" height="150px" width="400px">
                 <div class="icons">
-                    <a href="#" class="cart-btn">add to cart</a>
-                    <a href="../html/auto4.html" class="info">INFO</a>
+                    <a href="auto4.php" class="info">INFO</a>
                 </div>
             </div>
             <div class="content">
@@ -74,8 +69,7 @@ require "../php/blocks/header.php";
             <div class="image">
                 <img src="../img/Ecosse%20Founder%20is%20Edition%20Ti%20XX.jpg" alt="" height="150px" width="400px">
                 <div class="icons">
-                    <a href="#" class="cart-btn">add to cart</a>
-                    <a href="../html/auto5.html" class="info">INFO</a>
+                    <a href="auto5.php" class="info">INFO</a>
                 </div>
             </div>
             <div class="content">
@@ -88,8 +82,7 @@ require "../php/blocks/header.php";
             <div class="image">
                 <img src="../img/Rolls-Royce%20Silver%20Spur.jpg" alt="" height="150px" width="450px">
                 <div class="icons">
-                    <a href="#" class="cart-btn">add to cart</a>
-                    <a href="../html/auto6.html" class="info">INFO</a>
+                    <a href="auto6.php" class="info">INFO</a>
                 </div>
             </div>
             <div class="content">
@@ -103,8 +96,7 @@ require "../php/blocks/header.php";
             <div class="image">
                 <img src="../img/Chevrolet%2067.jpg" alt="" height="150px" width="450px">
                 <div class="icons">
-                    <a href="#" class="cart-btn">add to cart</a>
-                    <a href="../html/auto7.html" class="info">INFO</a>
+                    <a href="auto7.php" class="info">INFO</a>
                 </div>
             </div>
             <div class="content">
@@ -112,9 +104,7 @@ require "../php/blocks/header.php";
                 <div class="price"> $320.599</div>
             </div>
         </div>
-
     </div>
-
   </section>
  <?php
  require "../php/blocks/footer.php";

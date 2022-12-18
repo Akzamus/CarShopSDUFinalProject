@@ -1,10 +1,3 @@
-/* аккаунт */
-.login{
-    position: relative;
-    margin-left:100px;
-}
-/* аккаунт */
-
 header a {
     text-decoration: none;
 }
@@ -46,6 +39,11 @@ header .navbar a{
     color:#666;
 }
 
+div.profile-info {
+    display: flex;
+    align-items: center;
+}
+
 header .profile-info .profile-icon{
     width: 7vh;
     height: 7vh;
@@ -65,7 +63,6 @@ header .profile-info a{
     font-size: 2rem;
     color:#333;
     margin-left: 1.5rem;
-    vertical-align: middle;
 }
 
 header .profile-info a:hover{
@@ -100,9 +97,10 @@ header .fa-bars{
         padding:2rem;
     }
 
-    /*.home{*/
-    /*    background-position: left;*/
-    /*}*/
+    header .profile-info .profile-icon{
+        width: 8vh;
+        height: 8vh;
+    }
 
 }
 
@@ -110,6 +108,10 @@ header .fa-bars{
 
     header .menu{
         display: block;
+    }
+
+    header .profile-info a#user-login {
+        display: none;
     }
 
     header .navbar{

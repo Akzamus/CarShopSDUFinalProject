@@ -1,7 +1,7 @@
 <?php
-session_start();
-$title = "About";
-require "../php/blocks/header.php";
+    $styles = array("main.css", "header.css", "footer.css", "about-us.css");
+    $title = "About";
+    require "../php/blocks/header.php";
 ?>
     <section class="about" id="about">
 

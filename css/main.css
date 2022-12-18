@@ -1,50 +1,104 @@
-/* тени */
-.imp{
-    font-weight: 549;
-    color:#fff!important;
-    text-shadow: 1px 1px 1px #000;
+
+
+/* цвет шрифта */
+:root{
+    --шрифт1:#315e6a;
+    --шрифт2икнопки:rgba(123, 143, 73, 0.858);
+    --шрифт3:#020407;
 }
-
-.ex{
-    color:rgb(254, 254, 254)!important;
-    text-shadow: 3px 3px 4px rgb(108, 99, 99);
+.lol{
+    color:#778899;
 }
+/* цвет шрифта */
 
-.text{
-    font-weight: 800;
-    color:#fff!important;
-    text-shadow: 1px 1px 1px #000;
+/* структура */
+* {
+    margin:0; padding:0;
+    box-sizing: border-box;
+    font-family: Verdana, Tahoma, sans-serif;
+    outline: none;
+    border:none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
 }
-/* тени */
+/* структура */
 
-.home{
-    display: flex;
-    align-items: center;
-    min-height: 100vh;
-    background-size: cover;
-    background: url(../img/impala.jpg) no-repeat center;
+/* вся страница */
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+    overflow-x: hidden;
 }
+/* вся страница */
 
-
-.home .content{
-    max-width: 50rem;
+/* разделы */
+section {
+    padding:2rem 9%;
+    color:#030303;
+    background-color: rgb(238, 243, 219);
 }
+/* разделы */
 
-.home .content h3{
-    font-size: 6rem;
+/* название глав */
+.heading{
+    text-align: center;
+    font-size: 4rem;
     color:#333;
+    padding: 1rem;
+    margin: 2rem 0;
+    background:rgba(117, 164, 185, 0.17);
 }
 
-.home .content span{
-    font-size: 3.9rem;
+.heading span{
     color:var(--шрифт2икнопки);
-    padding:2rem 0;
-    line-height: 2.1;
+}
+/* название глав */
+
+
+/* кнопки */
+.btn{
+    display: inline-block;
+    margin-top: 1rem;
+    border-radius: 5rem;
+    background:#333;
+    color:rgb(222, 208, 166);
+    padding:.9rem 3.5rem;
+    cursor: pointer;
+    font-size: 1.7rem;
+    font-weight: 900;
 }
 
-.home .content p{
-    font-size: 1.5rem;
-    color:#999;
-    padding:1rem 0;
-    line-height: 1.5;
+.btn:hover{
+    background:var(--шрифт2икнопки);
 }
+/* кнопки */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

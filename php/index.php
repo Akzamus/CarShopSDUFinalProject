@@ -1,7 +1,7 @@
 <?php
-session_start();
-$title = "Main";
-require "../php/blocks/header.php";
+    $title = "Main";
+    $styles = array("main.css", "header.css", "footer.css", "index.css");
+    require "../php/blocks/header.php";
 ?>
     <section class="home" id="home">
 

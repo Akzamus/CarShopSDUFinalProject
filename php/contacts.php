@@ -1,7 +1,8 @@
 <?php
-session_start();
-$title = "Contacts";
-require "../php/blocks/header.php";
+    session_start();
+    $title = "Contacts";
+    $styles = array("main.css", "header.css", "footer.css", "contacts.css");
+    require "../php/blocks/header.php";
 ?>
 <section class="contact" id="contact">
     <h1 class="heading"> <span> contact </span> us </h1>

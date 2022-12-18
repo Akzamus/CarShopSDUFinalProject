@@ -1,19 +1,10 @@
 <?php
-    session_start();
+    $title = "Security";
+    $styles = array("main.css", "header.css", "security.css");
+    require "../php/blocks/header.php";
     if(!empty($_SESSION["user"]))
-        header("");
+        header("Location: index.php");
 ?>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"/>
-    <link rel="stylesheet" href="../css/security.css">
-    <title>Responsive Login And Register Form</title>
-</head>
-<body>
-
 <div class="container">
     <form class="login active">
         <h2 class="title">Login with your account</h2>

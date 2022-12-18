@@ -27,7 +27,7 @@
             <p><strong>Full name: </strong><?= $user['full_name'] ?></p>
             <p><strong>Email: </strong><?= $user['email']?></p>
             <p><strong>Login: </strong><?= $user['login']?></p>
-            <a href="main.php" class="btn">Home</a>
+            <a href="index.php" class="btn">Home</a>
             <a href="security/logout.php" class="btn">Logout</a>
         </div>
 
