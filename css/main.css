@@ -1,0 +1,50 @@
+/* тени */
+.imp{
+    font-weight: 549;
+    color:#fff!important;
+    text-shadow: 1px 1px 1px #000;
+}
+
+.ex{
+    color:rgb(254, 254, 254)!important;
+    text-shadow: 3px 3px 4px rgb(108, 99, 99);
+}
+
+.text{
+    font-weight: 800;
+    color:#fff!important;
+    text-shadow: 1px 1px 1px #000;
+}
+/* тени */
+
+.home{
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    background-size: cover;
+    background: url(../img/impala.jpg) no-repeat center;
+}
+
+
+.home .content{
+    max-width: 50rem;
+}
+
+.home .content h3{
+    font-size: 6rem;
+    color:#333;
+}
+
+.home .content span{
+    font-size: 3.9rem;
+    color:var(--шрифт2икнопки);
+    padding:2rem 0;
+    line-height: 2.1;
+}
+
+.home .content p{
+    font-size: 1.5rem;
+    color:#999;
+    padding:1rem 0;
+    line-height: 1.5;
+}

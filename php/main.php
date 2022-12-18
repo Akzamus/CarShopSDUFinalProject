@@ -3,7 +3,7 @@ session_start();
 $title = "Main";
 require "../php/blocks/header.php";
 ?>
-<section class="home" id="home">
+    <section class="home" id="home">
 
     <div class="content">
         <div class="ex"><h3>EXCLUSIVE</h3></div>
