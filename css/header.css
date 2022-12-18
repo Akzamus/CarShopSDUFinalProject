@@ -1,6 +1,82 @@
 header a {
     text-decoration: none;
 }
+
+header{
+    position: fixed;
+    top:0; left:0; right:0;
+    background:rgb(238, 243, 219);
+    padding: 1rem 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+}
+
+header .menu{
+    display:none;
+}
+
+header .logo{
+    font-size: 4.4rem;
+    color:#333;
+    font-weight: bolder;
+    color:rgb(26, 25, 25)!important;
+    text-shadow: 2px 2px 4px #000;
+}
+
+header .logo span{
+    color:var(--шрифт1);
+    color:rgb(107, 106, 54)!important;
+    text-shadow: 1px 1px 3px #000;
+}
+
+header .navbar a{
+    font-size: 2rem;
+    padding:0 1.5rem;
+    color:#666;
+}
+
+header .profile-info .profile-icon{
+    width: 7vh;
+    height: 7vh;
+    border-radius: 50%;
+    border: black solid 2px;
+}
+
+header .profile-info .profile-icon:hover {
+    scale: 1.2;
+}
+
+header .navbar a:hover{
+    color:var(--шрифт2икнопки);
+}
+
+header .profile-info a{
+    font-size: 2rem;
+    color:#333;
+    margin-left: 1.5rem;
+    vertical-align: middle;
+}
+
+header .profile-info a:hover{
+    color:var(--шрифт2икнопки);
+}
+
+header #toggler{
+    display: none;
+}
+
+header .fa-bars{
+    font-size: 3rem;
+    color:#333;
+    border-radius: .5rem;
+    padding:.5rem 1.5rem;
+    cursor: pointer;
+    border:.1rem solid rgba(0,0,0,.3);
+    display: none;
+}
 /* мобилка  */
 @media (max-width:991px){
     

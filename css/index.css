@@ -63,8 +63,8 @@ section {
     text-align: center;
     font-size: 4rem;
     color:#333;
-    padding:1rem;
-    margin:2rem 0;
+    padding: 1rem;
+    margin: 2rem 0;
     background:rgba(117, 164, 185, 0.17);
 }
 
@@ -90,77 +90,6 @@ section {
 
 .btn:hover{
     background:var(--шрифт2икнопки);
-}
-
-header{
-    position: fixed;
-    top:0; left:0; right:0;
-    background:rgb(238, 243, 219);
-    padding:2rem 9%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    z-index: 1000;
-    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
-}
-
-header .menu{
-    display:none;
-}
-
-header .logo{
-    font-size: 4.4rem;
-    color:#333;
-    font-weight: bolder;
-    color:rgb(26, 25, 25)!important;
-    text-shadow: 2px 2px 4px #000;
-}
-
-header .logo span{
-    color:var(--шрифт1);
-    color:rgb(107, 106, 54)!important;
-    text-shadow: 1px 1px 3px #000;
-}
-
-header .navbar a{
-    font-size: 2rem;
-    padding:0 1.5rem;
-    color:#666;
-}
-
-.profile-icon{
-    width: 5vh;
-    height: 5vh;
-    border-radius: 50%;
-    border: black solid 2px;
-}
-
-header .navbar a:hover{
-    color:var(--шрифт2икнопки);
-}
-
-header .icons a{
-    font-size: 2.5rem;
-    color:#333;
-    margin-left: 1.5rem;
-}
-
-header .icons a:hover{
-    color:var(--шрифт2икнопки);
-}
-
-header #toggler{
-    display: none;
-}
-
-header .fa-bars{
-    font-size: 3rem;
-    color:#333;
-    border-radius: .5rem;
-    padding:.5rem 1.5rem;
-    cursor: pointer;
-    border:.1rem solid rgba(0,0,0,.3);
-    display: none;
 }
 
 .home{
