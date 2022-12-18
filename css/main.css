@@ -2,9 +2,9 @@
 
 /* цвет шрифта */
 :root{
-    --шрифт1:#315e6a;
-    --шрифт2икнопки:rgba(123, 143, 73, 0.858);
-    --шрифт3:#020407;
+    --dark-cyanide:#315e6a;
+    --swamp-green:rgba(123, 143, 73, 0.858);
+    --dark-black:#020407;
 }
 .lol{
     color:#778899;
@@ -52,7 +52,7 @@ section {
 }
 
 .heading span{
-    color:var(--шрифт2икнопки);
+    color:var(--swamp-green);
 }
 /* название глав */
 
@@ -71,7 +71,7 @@ section {
 }
 
 .btn:hover{
-    background:var(--шрифт2икнопки);
+    background:var(--swamp-green);
 }
 /* кнопки */
 

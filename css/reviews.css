@@ -25,7 +25,7 @@
 }
 
 .review .box-container .box .stars i{
-    color:var(--шрифт2икнопки);
+    color:var(--swamp-green);
     font-size: 2rem;
 }
 

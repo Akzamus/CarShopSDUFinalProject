@@ -47,7 +47,6 @@
 .about .row .content p{
     font-size: 1.5rem;
     color:#999;
-    padding:.5rem 0;
-    padding-top: 1rem;
+    padding: 1rem 0 .5rem;
     line-height: 1.5;
 }

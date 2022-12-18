@@ -7,8 +7,7 @@
     align-items: center;
     gap:2rem;
     flex-wrap: wrap;
-    padding:2rem 0;
-    padding-bottom: 3rem;
+    padding: 2rem 0 3rem;
 }
 
 .cars .row .img-container{
@@ -48,7 +47,6 @@
 .cars .row .content p{
     font-size: 2.5rem;
     color:rgba(111, 86, 43, 0.858);
-    padding:.5rem 0;
-    padding-top: 1rem;
+    padding: 1rem 0 .5rem;
     line-height: 1.5;
 }

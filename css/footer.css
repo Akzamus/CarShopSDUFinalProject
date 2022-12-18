@@ -22,7 +22,7 @@ footer .box-container .box a{
 }
 
 footer .box-container .box a:hover{
-    color:var(--шрифт2икнопки);
+    color:var(--swamp-green);
     text-decoration: underline;
 }
 
@@ -45,7 +45,7 @@ footer .credit{
 }
 
 footer .credit span{
-    color:var(--шрифт2икнопки);
+    color:var(--swamp-green);
 }
 
 footer {

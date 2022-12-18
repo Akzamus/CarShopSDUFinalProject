@@ -57,7 +57,7 @@
     line-height: 5rem;
     font-size: 2rem;
     width:100%;
-    background:var(--шрифт2икнопки);
+    background:var(--swamp-green);
     color:#fff;
 }
 
@@ -83,7 +83,7 @@
 
 .products .box-container .box .content .price{
     font-size: 2.5rem;
-    color:var(--шрифт2икнопки);
+    color:var(--swamp-green);
     font-weight: bolder;
     padding-top: 1rem;
 }

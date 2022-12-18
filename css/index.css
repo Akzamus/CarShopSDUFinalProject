@@ -37,7 +37,7 @@
 
 .home .content span{
     font-size: 3.9rem;
-    color:var(--шрифт2икнопки);
+    color:var(--swamp-green);
     padding:2rem 0;
     line-height: 2.1;
 }
