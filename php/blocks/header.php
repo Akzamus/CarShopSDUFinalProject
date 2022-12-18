@@ -34,7 +34,7 @@
                 if(!empty($_SESSION["user"]["login"])) echo $_SESSION["user"]["login"];
             ?></a>
             <a href="profile.php"><img class="profile-icon" src="..<?php
-                if(empty($_SESSION["user"])) echo ("/img/profile.png");
+                if(empty($_SESSION["user"])) echo ("/img/icons/profile.png");
                 else                         echo $_SESSION["user"]["avatar"];
             ?>" alt="profile"></a>
         </div>
