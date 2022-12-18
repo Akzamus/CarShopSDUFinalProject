@@ -6,7 +6,7 @@ require "../php/blocks/header.php";
     <header>
     
         <input type="checkbox" name="" id="toggler">
-        <label for="toggler" class="menu"><img src="../img/menu.png" alt="menu" height="25px" width="25px"></label>
+        <label for="toggler" class="menu"><img src="../img/icons/menu.png" alt="menu" height="25px" width="25px"></label>
     
         <a href="index.php" class="logo">AUTO<span class="lol">&</span><span>MOTO</span></a>
     
@@ -21,7 +21,7 @@ require "../php/blocks/header.php";
         <div class="icons">
             
             <a href="#"><img src="../img/shopping%20cart.png" alt="shopping-cart" height="45px" width="45px"></a>
-            <a href="#"><img src="../img/profile.png" alt="profile" height="45px" width="45px"></a>
+            <a href="#"><img src="../img/icons/profile.png" alt="profile" height="45px" width="45px"></a>
             
         </div>
     

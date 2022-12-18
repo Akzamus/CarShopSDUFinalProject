@@ -31,14 +31,14 @@
             <a href="/php/contacts.php">Nur-Sultan, Kazakhstan - 010000</a>
 
             <div class="social-media">
-                <a href="https://www.instagram.com/2temik_/"><i class="insta"><img src="../img/insta.png" alt="insta"
+                <a href="https://www.instagram.com/2temik_/"><i class="insta"><img src="../img/socialNetworks/insta.png" alt="insta"
                                                                                    height="28px" width="28px"></i></a>
-                <a href="https://twitter.com/temik"><i class="twitter"><img src="../img/twitter.png" alt="twitter"
+                <a href="https://twitter.com/temik"><i class="twitter"><img src="../img/socialNetworks/twitter.png" alt="twitter"
                                                                             height="28px" width="28px"></i></a>
-                <a href="https://wa.me/+77071018191?text=good project!"><i class="wapp"><img src="../img/wapp.png"
+                <a href="https://wa.me/+77071018191?text=good project!"><i class="wapp"><img src="../img/socialNetworks/wapp.png"
                                                                                              alt="wapp" height="28px"
                                                                                              width="28px"></i></a>
-                <a href="https://ru-ru.facebook.com/ethoted"><i class="fbook"><img src="../img/fbook.png" alt="fbook"
+                <a href="https://ru-ru.facebook.com/ethoted"><i class="fbook"><img src="../img/socialNetworks/fbook.png" alt="fbook"
                                                                                    height="28px" width="28px"></i></a>
             </div>
         </div>

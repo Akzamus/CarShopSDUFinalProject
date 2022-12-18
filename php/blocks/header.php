@@ -17,7 +17,7 @@
 
     <header>
         <input type="checkbox" name="" id="toggler">
-        <label for="toggler" class="menu"><img src="../img/menu.png" alt="menu" height="25px" width="25px"></label>
+        <label for="toggler" class="menu"><img src="../img/icons/menu.png" alt="menu" height="25px" width="25px"></label>
 
         <a href="index.php" class="logo">AUTO<span class="lol">&</span><span>MOTO</span></a>
 
