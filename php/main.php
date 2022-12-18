@@ -1,4 +1,5 @@
 <?php
+session_start();
 $title = "Main";
 require "../php/blocks/header.php";
 ?>

@@ -1,4 +1,5 @@
 <?php
+session_start();
 $title = "Products";
 require "../php/blocks/header.php";
 ?>
@@ -13,7 +14,7 @@ require "../php/blocks/header.php";
         <div class="box">
             <span class="discount">-10%</span>
             <div class="image">
-                <img src="../img/bmw s1000rr.jpg" alt="" height="150px" width="300px">
+                <img src="../img/bmw%20s1000rr.jpg" alt="" height="150px" width="300px">
                 <div class="icons">
                     <a href="#" class="cart-btn">add to cart</a>
                     <a href="../html/auto1.html" class="info">INFO</a>
@@ -28,7 +29,7 @@ require "../php/blocks/header.php";
         <div class="box">
             <span class="discount">-5%</span>
             <div class="image">
-                <img src="../img/Bugatti La Voiture Noire.jpg" alt="" height="150px" width="300px">
+                <img src="../img/Bugatti%20La%20Voiture%20Noire.jpg" alt="" height="150px" width="300px">
                 <div class="icons">
                     
                     <a href="#" class="cart-btn">add to cart</a>
@@ -43,7 +44,7 @@ require "../php/blocks/header.php";
 
         <div class="box">
             <div class="image">
-                <img src="../img/McLaren 720s Spider.jpg" alt="" height="150px" width="300px">
+                <img src="../img/McLaren%20720s%20Spider.jpg" alt="" height="150px" width="300px">
                 <div class="icons">
                     <a href="#" class="cart-btn">add to cart</a>
                     <a href="../html/auto3.html" class="info">INFO</a>
@@ -57,7 +58,7 @@ require "../php/blocks/header.php";
 
         <div class="box">
             <div class="image">
-                <img src="../img/Harley Davidson Cosmic Starship.jpg" alt="" height="150px" width="400px">
+                <img src="../img/Harley%20Davidson%20Cosmic%20Starship.jpg" alt="" height="150px" width="400px">
                 <div class="icons">
                     <a href="#" class="cart-btn">add to cart</a>
                     <a href="../html/auto4.html" class="info">INFO</a>
@@ -71,7 +72,7 @@ require "../php/blocks/header.php";
 
         <div class="box">
             <div class="image">
-                <img src="../img/Ecosse Founder is Edition Ti XX.jpg" alt="" height="150px" width="400px">
+                <img src="../img/Ecosse%20Founder%20is%20Edition%20Ti%20XX.jpg" alt="" height="150px" width="400px">
                 <div class="icons">
                     <a href="#" class="cart-btn">add to cart</a>
                     <a href="../html/auto5.html" class="info">INFO</a>
@@ -85,7 +86,7 @@ require "../php/blocks/header.php";
 
         <div class="box">
             <div class="image">
-                <img src="../img/Rolls-Royce Silver Spur.jpg" alt="" height="150px" width="450px">
+                <img src="../img/Rolls-Royce%20Silver%20Spur.jpg" alt="" height="150px" width="450px">
                 <div class="icons">
                     <a href="#" class="cart-btn">add to cart</a>
                     <a href="../html/auto6.html" class="info">INFO</a>
@@ -100,7 +101,7 @@ require "../php/blocks/header.php";
         <div class="box">
             <span class="discount">1/2 LEFT</span>
             <div class="image">
-                <img src="../img/Chevrolet 67.jpg" alt="" height="150px" width="450px">
+                <img src="../img/Chevrolet%2067.jpg" alt="" height="150px" width="450px">
                 <div class="icons">
                     <a href="#" class="cart-btn">add to cart</a>
                     <a href="../html/auto7.html" class="info">INFO</a>

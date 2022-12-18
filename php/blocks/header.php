@@ -28,6 +28,9 @@
 
         <div class="icons">
             <a href="#"><img src="../img/shopping cart.png" alt="shopping-cart" height="45px" width="45px"></a>
-            <a href="#"><img src="../img/profile.png" alt="profile" height="45px" width="45px"></a>
+            <a href="profile.php"><img class="profile-icon" src="..<?php
+                if(empty($_SESSION["user"])) echo ("/img/profile.png");
+                else                         echo $_SESSION["user"]["avatar"];
+            ?>" alt="profile" height="5vh" width="5vh"></a>
         </div>
     </header>

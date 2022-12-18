@@ -1,4 +1,5 @@
 <?php
+session_start();
 $title = "Contacts";
 require "../php/blocks/header.php";
 ?>

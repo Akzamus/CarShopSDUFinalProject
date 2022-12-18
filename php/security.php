@@ -1,42 +1,47 @@
+<?php
+    session_start();
+    if(!empty($_SESSION["user"]))
+        header("");
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"/>
-    <link rel="stylesheet" href="../css/regAndAuth.css">
+    <link rel="stylesheet" href="../css/security.css">
     <title>Responsive Login And Register Form</title>
 </head>
 <body>
 
 <div class="container">
-    <form action="#" class="login active">
+    <form class="login active">
         <h2 class="title">Login with your account</h2>
         <div class="form-group">
-            <label for="login">Login</label>
+            <label for="login-auth">Login</label>
             <div class="input-group">
-                <input type="text" name="login" id="login" placeholder="Enter your login">
+                <input type="text" name="login" id="login-auth" placeholder="Enter your login">
                 <i class='bi bi-person'></i>
             </div>
-            <span class="error-text"></span>
+            <span id="login-error-auth" class="error-text"></span>
         </div>
 
         <div class="form-group">
-            <label for="password">Password</label>
+            <label for="password-auth">Password</label>
             <div class="input-group">
-                <input type="password" name="password" id="password" placeholder="Enter your password">
+                <input type="password" name="password" id="password-auth" placeholder="Enter your password">
                 <i class='bi bi-lock' ></i>
             </div>
-            <span class="error-text"></span>
+            <span id="password-error-auth" class="error-text"></span>
         </div>
 
-        <button type="submit" class="btn-submit">Login</button>
+        <button id="btn-auth" type="submit" class="btn-submit">Login</button>
         <p>I don't have an account. <a href="#" onclick="switchForm('register', event)">Register</a></p>
     </form>
 
 
 
-    <form action="#" class="register">
+    <form class="register">
         <h2 class="title">Register your account</h2>
 
         <div class="form-group">
@@ -45,16 +50,16 @@
                 <input  type="text" name="full_name" id="full-name" placeholder="Enter your full name">
                 <i class='bi bi-person'></i>
             </div>
-            <span class="error-text"></span>
+            <span id="full-name-error" class="error-text"></span>
         </div>
 
         <div class="form-group">
-            <label for="login">Login</label>
+            <label for="login-reg">Login</label>
             <div class="input-group">
-                <input type="text" name="login" id="login" placeholder="Enter your login">
+                <input type="text" name="login" id="login-reg" placeholder="Enter your login">
                 <i class='bi bi-person'></i>
             </div>
-            <span class="error-text"></span>
+            <span id="login-error-reg" class="error-text"></span>
         </div>
 
         <div class="form-group">
@@ -63,25 +68,25 @@
                 <input type="email" name="email" id="email" placeholder="Enter your email">
                 <i class='bi bi-envelope'></i>
             </div>
-            <span class="error-text"></span>
+            <span id="email-error" class="error-text"></span>
         </div>
 
         <div class="form-group">
             <label for="file">Photo</label>
             <div class="input-group">
-                <input type="file" name="file" id="file" placeholder="Enter your photo">
+                <input type="file" name="avatar" id="file" placeholder="Enter your photo">
                 <i class='bi bi-image'></i>
             </div>
-            <span class="error-text"></span>
+            <span id="file-error" class="error-text"></span>
         </div>
 
         <div class="form-group">
-            <label for="password">Password</label>
+            <label for="password-reg">Password</label>
             <div class="input-group">
-                <input type="password" name="password" id="password" placeholder="Enter your password">
+                <input type="password" name="password" id="password-reg" placeholder="Enter your password">
                 <i class='bi bi-lock'></i>
             </div>
-            <span class="error-text"></span>
+            <span id="password-error-reg" class="error-text"></span>
         </div>
 
         <div class="form-group">
@@ -90,15 +95,15 @@
                 <input type="password" name="password_confirm" id="confirm-pass" placeholder="Enter password again">
                 <i class='bi bi-lock' ></i>
             </div>
-            <span class="error-text"></span>
+            <span id="password-confirm-error" class="error-text"></span>
         </div>
 
-        <button type="submit" class="btn-submit">Register</button>
+        <button id="btn-reg" type="submit" class="btn-submit">Register</button>
         <p>I already have an account. <a href="#" onclick="switchForm('login', event)">Login</a></p>
     </form>
 </div>
 
-<script src="../js/regAndAuth.js"></script>
+<script src = "../js/jquery-3.6.2.min.js"></script>
+<script src = "../js/security.js"></script>
 </body>
 </html>
-<?php

@@ -128,6 +128,13 @@ header .navbar a{
     color:#666;
 }
 
+.profile-icon{
+    width: 5vh;
+    height: 5vh;
+    border-radius: 50%;
+    border: black solid 2px;
+}
+
 header .navbar a:hover{
     color:var(--шрифт2икнопки);
 }
