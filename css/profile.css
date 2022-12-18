@@ -63,7 +63,7 @@
 
 .container .profile{
     padding:20px;
-    background-color: var(--beige);
+    background-color: var(--white);
     box-shadow: var(--box-shadow);
     text-align: center;
     width: 30%;
@@ -74,7 +74,7 @@
     height: 100%;
     width: 100%;
     border-radius: 50%;
-    border: var(--black) solid 10px;
+    border: var(--red) solid 10px;
     object-fit: cover;
     margin-bottom: 5px;
 }

@@ -16,14 +16,14 @@
         <input type="checkbox" name="" id="toggler">
         <label for="toggler" class="menu"><img src="../img/menu.png" alt="menu" height="25px" width="25px"></label>
 
-        <a href="../html/main.php" class="logo">AUTO<span class="lol">&</span><span>MOTO</span></a>
+        <a href="../main.php" class="logo">AUTO<span class="lol">&</span><span>MOTO</span></a>
 
         <nav class="navbar">
-            <a href="../html/main.php">Home</a>
-            <a href="../html/about-us.php">About</a>
-            <a href="../html/products.php">Products</a>
-            <a href="../html/reviews.php">Reviews</a>
-            <a href="../html/contacts.php">Contacts</a>
+            <a href="main.php">Home</a>
+            <a href="about-us.php">About</a>
+            <a href="products.php">Products</a>
+            <a href="reviews.php">Reviews</a>
+            <a href="contacts.php">Contacts</a>
         </nav>
 
         <div class="icons">

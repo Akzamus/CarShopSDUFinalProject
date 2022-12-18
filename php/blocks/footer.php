@@ -2,11 +2,11 @@
     <div class="box-container">
         <div class="box">
             <h3>quick links</h3>
-            <a href="../html/main.php">Home</a>
-            <a href="../html/about-us.php">About</a>
-            <a href="../html/products.php">Products</a>
-            <a href="../html/reviews.php">Reviews</a>
-            <a href="../html/contacts.php">Contacts</a>
+            <a href="main.php">Home</a>
+            <a href="about-us.php">About</a>
+            <a href="products.php">Products</a>
+            <a href="reviews.php">Reviews</a>
+            <a href="contacts.php">Contacts</a>
         </div>
 
         <div class="box">
@@ -18,17 +18,17 @@
 
         <div class="box">
             <h3>locations</h3>
-            <a href="../html/contacts.php">Kazakhstan</a>
-            <a href="../html/contacts.php">Netherlands</a>
-            <a href="../html/contacts.php">Spain</a>
-            <a href="../html/contacts.php">France</a>
+            <a href="contacts.php">Kazakhstan</a>
+            <a href="contacts.php">Netherlands</a>
+            <a href="contacts.php">Spain</a>
+            <a href="contacts.php">France</a>
         </div>
 
         <div class="box">
             <h3>contact info</h3>
             <a href="tel:+77071018191">+77071018191</a>
             <a href="mailto:timerlanmiratov@gmail.com">autoandmoto@gmail.com</a>
-            <a href="../html/contacts.php">Nur-Sultan, Kazakhstan - 010000</a>
+            <a href="contacts.php">Nur-Sultan, Kazakhstan - 010000</a>
 
             <div class="social-media">
                 <a href="https://www.instagram.com/2temik_/"><i class="insta"><img src="../img/insta.png" alt="insta"
