@@ -44,11 +44,11 @@ html {
     border-radius: 10px;
 }
 
-.home .content:hover{
-    color: #fff;   /* Цвет текста */
+.home .content:hover {
+    color: #fff; /* Цвет текста */
     background-color: rgba(81, 30, 0, 0.8);
-/* разделы */
-
+    /* разделы */
+}
 section {
     padding:2rem 9%;
     color:#030303;
@@ -99,30 +99,5 @@ section {
     color: rgba(255,255,255,0.9);
     border-radius: 50px;
     background: linear-gradient(-45deg, #FFA63D, #FF3D77, #338AFF, #3CF0C5);
-    -webkit-animation: anime 16s linear infinite;
-    animation: anime 16s linear infinite;
     opacity: 1;
-}
-
-@-webkit-keyframes anime {
-    0% {
-        background-position: 0% 50%;
-    }
-    50% {
-        background-position: 100% 50%;
-    }
-    100% {
-        background-position: 0% 50%;
-    }
-}
-@keyframes anime {
-    0% {
-        background-position: 0% 50%;
-    }
-    50% {
-        background-position: 100% 50%;
-    }
-    100% {
-        background-position: 0% 50%;
-    }
 }
