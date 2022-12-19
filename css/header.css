@@ -47,6 +47,7 @@ header .profile-info .profile-icon{
     height: 7vh;
     border-radius: 50%;
     border: white solid 2px;
+    background-color: white;
 }
 
 header .profile-info .profile-icon:hover {
@@ -55,6 +56,7 @@ header .profile-info .profile-icon:hover {
 
 header .navbar a:hover{
     color:var(--swamp-green);
+    background-color: #333;
 }
 
 header .profile-info a{
@@ -148,11 +150,6 @@ header .fa-bars{
 
     .home .content span{
         font-size: 2.5rem;
-    }
-
-    header .profile-info .profile-icon{
-        width: 4.5vh;
-        height: 4.5vh;
     }
 }
 
