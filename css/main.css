@@ -57,13 +57,13 @@ section {
 /* разделы */
 
 /* название глав */
-.heading{
+.heading {
     text-align: center;
     font-size: 4rem;
-    color:#333;
+    color: #333;
     padding: 1rem;
     margin: 2rem 0;
-    background:rgba(117, 164, 185, 0.17);
+    background: rgba(117, 164, 185, 0.17);
 }
 
 .heading span{
