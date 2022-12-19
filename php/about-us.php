@@ -4,7 +4,6 @@
     require "../php/blocks/header.php";
 ?>
     <section class="about" id="about">
-
         <h1 class="heading"><span> about </span> us </h1>
 
         <div class="row">

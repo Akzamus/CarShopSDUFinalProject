@@ -1,4 +1,8 @@
 
+.ex{
+    color:rgb(254, 254, 254)!important;
+    text-shadow: 3px 3px 4px rgb(108, 99, 99);
+}
 
 /* цвет шрифта */
 :root{
@@ -33,7 +37,18 @@ html {
 }
 /* вся страница */
 
+.home .content{
+    max-width: 50rem;
+    padding: 10px; /* Поля вокруг текста */
+    transition: 1s linear; /* Время изменения */
+    border-radius: 10px;
+}
+
+.home .content:hover{
+    color: #fff;   /* Цвет текста */
+    background-color: rgba(81, 30, 0, 0.8);
 /* разделы */
+
 section {
     padding:2rem 9%;
     color:#030303;
@@ -73,32 +88,41 @@ section {
 .btn:hover{
     background:var(--swamp-green);
 }
-/* кнопки */
 
+.home .content .btn:hover{
+    display: inline-block;
+    margin-top: 1rem;
+    padding:.9rem 3.5rem;
+    cursor: pointer;
+    font-size: 1.7rem;
+    font-weight: 900;
+    color: rgba(255,255,255,0.9);
+    border-radius: 50px;
+    background: linear-gradient(-45deg, #FFA63D, #FF3D77, #338AFF, #3CF0C5);
+    -webkit-animation: anime 16s linear infinite;
+    animation: anime 16s linear infinite;
+    opacity: 1;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+@-webkit-keyframes anime {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+@keyframes anime {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
