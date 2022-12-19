@@ -4,6 +4,14 @@
     $styles = array("main.css", "header.css", "footer.css", "contacts.css");
     require "../php/blocks/header.php";
 ?>
+    <!--Задняя анимация звезд-->
+    <link rel="stylesheet" href="../css/BackgrundAnim.css">
+    <section class="wrapper">
+        <div id="stars"></div>
+        <div id="stars2"></div>
+        <div id="stars3"></div>
+    </section>
+
 <section class="contact" id="contact">
     <h1 class="heading"> <span> contact </span> us </h1>
 </section>

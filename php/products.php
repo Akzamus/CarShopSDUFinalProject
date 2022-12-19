@@ -3,11 +3,18 @@
     $title = "Products";
     require "../php/blocks/header.php";
 ?>
+<!--Задняя анимация звезд-->
+    <link rel="stylesheet" href="../css/BackgrundAnim.css">
+    <section class="wrapper">
+        <div id="stars"></div>
+        <div id="stars2"></div>
+        <div id="stars3"></div>
+    </section>
+
  <!-- машины  -->
  <section class="products" id="products">
-
     <h1 class="heading"> latest <span>products</span> </h1>
-   
+
     <!-- витрина  -->
     <div class="box-container">
 

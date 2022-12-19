@@ -1,17 +1,16 @@
-
 .ex{
-    color:rgb(254, 254, 254)!important;
+    color:rgb(255, 113, 5)!important;
     text-shadow: 3px 3px 4px rgb(108, 99, 99);
 }
 
 /* цвет шрифта */
 :root{
-    --dark-cyanide:#315e6a;
-    --swamp-green:rgba(123, 143, 73, 0.858);
-    --dark-black:#020407;
+    --dark-cyanide:#fff;
+    --swamp-green:#a8ffc7;
+    --dark-black:#fff;
 }
 .lol{
-    color:#778899;
+    color: black;
 }
 /* цвет шрифта */
 
@@ -46,13 +45,13 @@ html {
 
 .home .content:hover {
     color: #fff; /* Цвет текста */
-    background-color: rgba(81, 30, 0, 0.8);
+    background-color: rgba(21, 21, 61, 0.8);
     /* разделы */
 }
 section {
     padding:2rem 9%;
     color:#030303;
-    background-color: rgb(238, 243, 219);
+    /*background-color: rgb(238, 243, 219);*/
 }
 /* разделы */
 
@@ -100,4 +99,24 @@ section {
     border-radius: 50px;
     background: linear-gradient(-45deg, #FFA63D, #FF3D77, #338AFF, #3CF0C5);
     opacity: 1;
+}
+
+@media (max-width:778px){
+    .home .content .btn{
+        display: inline-block;
+        margin-top: 1rem;
+        padding:.9rem 3.5rem;
+        cursor: pointer;
+        font-size: 1.7rem;
+        font-weight: 900;
+        color: rgba(255,255,255,0.9);
+        border-radius: 50px;
+        background: linear-gradient(-45deg, #FFA63D, #FF3D77, #338AFF, #3CF0C5);
+        opacity: 1;
+    }
+
+    .home .content{
+        color: #fff;
+        background-color: rgba(81, 30, 0, 0.8);
+    }
 }

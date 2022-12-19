@@ -3,6 +3,14 @@ $styles = array("main.css", "header.css", "footer.css", "auto.css");
 $title = "Reviews";
 require "../php/blocks/header.php";
 ?>
+    <!--Задняя анимация звезд-->
+    <link rel="stylesheet" href="../css/BackgrundAnim.css">
+    <section class="wrapper">
+        <div id="stars"></div>
+        <div id="stars2"></div>
+        <div id="stars3"></div>
+    </section>
+
     <section class="cars" id="cars">
 
         <h1 class="heading"> <span> Bugatti </span> La Voiture Noire </h1>

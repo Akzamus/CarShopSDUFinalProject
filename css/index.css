@@ -6,7 +6,7 @@
 }
 
 .ex{
-    color:rgb(254, 254, 254)!important;
+    color:rgb(255, 113, 5)!important;
     text-shadow: 3px 3px 4px rgb(108, 99, 99);
 }
 
@@ -32,7 +32,7 @@
 
 .home .content h3{
     font-size: 6rem;
-    color:#333;
+    color:rgb(255, 113, 5);
 }
 
 .home .content span{

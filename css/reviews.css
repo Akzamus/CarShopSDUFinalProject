@@ -1,5 +1,6 @@
 .review .heading{
     margin-top:100px;
+    color: #75a8ff;
 }
 
 .review .box-container{
@@ -30,7 +31,7 @@
 }
 
 .review .box-container .box p{
-    color:#999;
+    color:#a8ffc7;
     font-size: 1.5rem;
     line-height: 1.5;
     padding-top: 2rem;
@@ -52,7 +53,7 @@
 
 .review .box-container .box .user h3{
     font-size: 2rem;
-    color:#333;
+    color:#fff;
 }
 
 .review .box-container .box .user span{

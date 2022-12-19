@@ -15,6 +15,14 @@
     <title>Profile</title>
 </head>
 <body>
+<!--Задняя анимация звезд-->
+<link rel="stylesheet" href="../css/BackgrundAnim.css">
+<section class="wrapper">
+    <div id="stars"></div>
+    <div id="stars2"></div>
+    <div id="stars3"></div>
+</section>
+
     <div class="container">
 
         <div class="profile">

@@ -1,5 +1,6 @@
 .products .heading{
     margin-top:100px;
+    color: #75a8ff;
 }
 
 .products .box-container{
@@ -78,7 +79,7 @@
 
 .products .box-container .box .content h3{
     font-size: 2.5rem;
-    color:#333;
+    color:#fff;
 }
 
 .products .box-container .box .content .price{

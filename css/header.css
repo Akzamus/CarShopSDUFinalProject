@@ -6,7 +6,7 @@ header a {
 header{
     position: fixed;
     top:0; left:0; right:0;
-    background:rgb(238, 243, 219);
+    background:rgb(0, 199, 109);
     padding: 1rem 5%;
     display: flex;
     align-items: center;
@@ -27,14 +27,14 @@ header .logo{
 }
 
 header .logo span{
-    color:rgb(107, 106, 54)!important;
+    color:#fff!important;
     text-shadow: 1px 1px 3px #000;
 }
 
 header .navbar a{
     font-size: 2rem;
     padding:0 1.5rem;
-    color:#666;
+    color:#fff;
 }
 
 div.profile-info {
@@ -156,6 +156,13 @@ header .fa-bars{
     }
     .bmw .heading{
         margin-top:200px;
+        margin-right: 0.5rem;
+    }
+
+    .profile-info{
+        width: 3vh;
+        height: 3vh;
+        margin-right: 5rem;
     }
 
 }

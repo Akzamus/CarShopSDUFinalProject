@@ -3,6 +3,15 @@ $styles = array("main.css", "header.css", "footer.css", "reviews.css");
 $title = "Reviews";
 require "../php/blocks/header.php";
 ?>
+
+<!--Задняя анимация звезд-->
+<link rel="stylesheet" href="../css/BackgrundAnim.css">
+<section class="wrapper">
+    <div id="stars"></div>
+    <div id="stars2"></div>
+    <div id="stars3"></div>
+</section>
+
 <section class="review" id="review">
 
     <h1 class="heading"> best <span> customer's </span></h1>
