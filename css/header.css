@@ -6,7 +6,7 @@ header a {
 header{
     position: fixed;
     top:0; left:0; right:0;
-    background:rgb(0, 199, 109);
+    background:rgb(4, 4, 27);
     padding: 1rem 5%;
     display: flex;
     align-items: center;
@@ -20,9 +20,9 @@ header .menu{
 }
 
 header .logo{
-    font-size: 4.4rem;
+    font-size: 4rem;
     font-weight: bolder;
-    color:rgb(26, 25, 25)!important;
+    color:rgb(100, 98, 234)!important;
     text-shadow: 2px 2px 4px #000;
 }
 
@@ -34,7 +34,7 @@ header .logo span{
 header .navbar a{
     font-size: 2rem;
     padding:0 1.5rem;
-    color:#fff;
+    color: white;
 }
 
 div.profile-info {
@@ -46,7 +46,7 @@ header .profile-info .profile-icon{
     width: 7vh;
     height: 7vh;
     border-radius: 50%;
-    border: black solid 2px;
+    border: white solid 2px;
 }
 
 header .profile-info .profile-icon:hover {
@@ -59,7 +59,7 @@ header .navbar a:hover{
 
 header .profile-info a{
     font-size: 2rem;
-    color:#333;
+    color:rgb(100, 98, 234);
     margin-left: 1.5rem;
 }
 
@@ -69,11 +69,12 @@ header .profile-info a:hover{
 
 header #toggler{
     display: none;
+    color: white;
 }
 
 header .fa-bars{
     font-size: 3rem;
-    color:#333;
+    color:#fff;
     border-radius: .5rem;
     padding:.5rem 1.5rem;
     cursor: pointer;
@@ -91,13 +92,21 @@ header .fa-bars{
         padding:2rem;
     }
 
+    header .navbar a{
+        text-align: center;
+    }
+
+    header .logo{
+        font-size: 3rem;
+    }
+
     section{
         padding:2rem;
     }
 
     header .profile-info .profile-icon{
-        width: 8vh;
-        height: 8vh;
+        width: 6vh;
+        height: 6vh;
     }
 
 }
@@ -115,7 +124,7 @@ header .fa-bars{
     header .navbar{
         position:absolute;
         top:100%; left:0; right:0;
-        background:#eee;
+        background:#fff;
         border-top: .1rem solid rgba(0,0,0,.1);
         clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
     }
@@ -127,6 +136,7 @@ header .fa-bars{
     header .navbar a{
         margin:1.5rem;
         padding:1.5rem;
+        color: #333;
         background:#fff;
         border:.1rem solid rgba(0,0,0,.1);
         display: block;
@@ -139,13 +149,21 @@ header .fa-bars{
     .home .content span{
         font-size: 2.5rem;
     }
-    
+
+    header .profile-info .profile-icon{
+        width: 4.5vh;
+        height: 4.5vh;
+    }
 }
 
 @media (max-width:450px){
     
     html{
         font-size: 50%;
+    }
+
+    header .logo{
+        font-size: 3rem;
     }
 
     .heading{
@@ -163,6 +181,11 @@ header .fa-bars{
         width: 3vh;
         height: 3vh;
         margin-right: 5rem;
+    }
+
+    header .profile-info .profile-icon{
+        width: 5vh;
+        height: 5vh;
     }
 
 }

@@ -5,14 +5,6 @@
     if(!empty($_SESSION["user"]))
         header("Location: index.php");
 ?>
-<!--Задняя анимация звезд-->
-<link rel="stylesheet" href="../css/BackgrundAnim.css">
-<section class="wrapper">
-    <div id="stars"></div>
-    <div id="stars2"></div>
-    <div id="stars3"></div>
-</section>
-
 <div class="container">
     <form class="login active">
         <h2 class="title">Login with your account</h2>
