@@ -124,8 +124,9 @@ $("#btn-reg").click((e) => {
     //file
     if(!file) {
         showError(fileInput, fileError, "Photo not uploaded");
-    } else if (file.type !== "image/png" && file.type !== "image/jpg") {
-        showError(fileInput, fileError, "File must have an extension .jpg or .png");
+    } else if (file.type !== "image/png" && file.type !== "image/jpg" && file.type !== "image/jpeg") {
+        console.log(file.type);
+        showError(fileInput, fileError, "File must have an extension .jpg, .jpeg or .png");
     } else {
         removeError(fileInput, fileError);
     }

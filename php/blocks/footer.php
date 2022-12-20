@@ -2,33 +2,33 @@
     <div class="box-container">
         <div class="box">
             <h3>quick links</h3>
-            <a href="/php/index.php">Home</a>
-            <a href="/php/about-us.php">About</a>
-            <a href="/php/products.php">Products</a>
-            <a href="/php/reviews.php">Reviews</a>
-            <a href="/php/contacts.php">Contacts</a>
+            <a href="index.php">Home</a>
+            <a href="about-us.php">About</a>
+            <a href="products.php">Products</a>
+            <a href="reviews.php">Reviews</a>
+            <a href="contacts.php">Contacts</a>
         </div>
 
         <div class="box">
             <h3>extra links</h3>
-            <a href="/php/profile.php">my account</a>
-            <a href="/php/security.php">registration</a>
+            <a href="profile.php">my account</a>
+            <a href="security.php">registration</a>
 
         </div>
 
         <div class="box">
             <h3>locations</h3>
-            <a href="/php/contacts.php">Kazakhstan</a>
-            <a href="/php/contacts.php">Netherlands</a>
-            <a href="/php/contacts.php">Spain</a>
-            <a href="/php/contacts.php">France</a>
+            <a href="contacts.php">Kazakhstan</a>
+            <a href="contacts.php">Netherlands</a>
+            <a href="contacts.php">Spain</a>
+            <a href="contacts.php">France</a>
         </div>
 
         <div class="box">
             <h3>contact info</h3>
             <a href="tel:+77071018191">+77071018191</a>
             <a href="mailto:timerlanmiratov@gmail.com">autoandmoto@gmail.com</a>
-            <a href="/php/contacts.php">Nur-Sultan, Kazakhstan - 010000</a>
+            <a href="contacts.php">Nur-Sultan, Kazakhstan - 010000</a>
 
             <div class="social-media">
                 <a href="https://www.instagram.com/2temik_/"><i class="insta"><img src="../img/socialNetworks/insta.png" alt="insta"

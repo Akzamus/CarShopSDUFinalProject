@@ -16,11 +16,9 @@
 <body>
 
     <header>
-        <input type="checkbox" name="" id="toggler">
+        <input type="checkbox" id="toggler">
         <label for="toggler" class="menu">
-            <svg xmlns="http://www.w3.org/2000/svg" width="35" style="color: white" height="35" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
-                <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
-            </svg>
+            <i class="bi bi-list"></i>
         </label>
 
         <a href="index.php" class="logo">AUTO<span class="lol">&</span><span>MOTO</span></a>
@@ -38,7 +36,7 @@
                 if(!empty($_SESSION["user"]["login"])) echo $_SESSION["user"]["login"];
             ?></a>
             <a href="profile.php"><img class="profile-icon" src="..<?php
-                if(empty($_SESSION["user"])) echo ("/img/icons/profile.png");
+                if(empty($_SESSION["user"])) echo ("/img/profile.png");
                 else                         echo $_SESSION["user"]["avatar"];
             ?>" alt="profile"></a>
         </div>

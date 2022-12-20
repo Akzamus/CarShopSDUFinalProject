@@ -2,14 +2,8 @@
     $styles = array("main.css", "header.css", "footer.css", "products.css", "auto.css");
     $title = "Products";
     require "../php/blocks/header.php";
+    require "../php/blocks/background.php";
 ?>
-<!--Задняя анимация звезд-->
-    <link rel="stylesheet" href="../css/BackgrundAnim.css">
-    <section class="wrapper">
-        <div id="stars"></div>
-        <div id="stars2"></div>
-        <div id="stars3"></div>
-    </section>
 
  <!-- машины  -->
  <section class="products" id="products">
@@ -114,5 +108,5 @@
     </div>
   </section>
  <?php
- require "../php/blocks/footer.php";
+    require "../php/blocks/footer.php";
  ?>

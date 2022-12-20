@@ -1,17 +1,20 @@
 <?php
     $title = "Security";
-    $styles = array("main.css", "header.css", "security.css");
-    require "../php/blocks/header.php";
     if(!empty($_SESSION["user"]))
         header("Location: index.php");
+    require "../php/blocks/background.php";
 ?>
-<!--Задняя анимация звезд-->
-<link rel="stylesheet" href="../css/BackgrundAnim.css">
-<section class="wrapper">
-    <div id="stars"></div>
-    <div id="stars2"></div>
-    <div id="stars3"></div>
-</section>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><?=$title?></title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"/>
+    <link rel="stylesheet" href="../css/security.css">
+</head>
+<body>
 
 <div class="container">
     <form class="login active">

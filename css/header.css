@@ -2,38 +2,41 @@ header a {
     text-decoration: none;
 }
 
-
-header{
+header {
     position: fixed;
-    top:0; left:0; right:0;
-    background:rgb(4, 4, 27);
+    top: 0;
+    left: 0;
+    right: 0;
+    background: rgb(4, 4, 27);
     padding: 1rem 5%;
     display: flex;
     align-items: center;
     justify-content: space-between;
     z-index: 1000;
-    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
 }
 
-header .menu{
-    display:none;
+header .menu {
+    display: none;
+    color: white;
+    font-size: 5vh
 }
 
-header .logo{
+header .logo {
     font-size: 4rem;
     font-weight: bolder;
-    color:rgb(100, 98, 234)!important;
+    color: rgb(100, 98, 234) !important;
     text-shadow: 2px 2px 4px #000;
 }
 
-header .logo span{
-    color:#fff!important;
+header .logo span {
+    color: #fff !important;
     text-shadow: 1px 1px 3px #000;
 }
 
-header .navbar a{
+header .navbar a {
     font-size: 2rem;
-    padding:0 1.5rem;
+    padding: 0 1.5rem;
     color: white;
 }
 
@@ -42,7 +45,7 @@ div.profile-info {
     align-items: center;
 }
 
-header .profile-info .profile-icon{
+header .profile-info .profile-icon {
     width: 7vh;
     height: 7vh;
     border-radius: 50%;
@@ -54,68 +57,69 @@ header .profile-info .profile-icon:hover {
     scale: 1.2;
 }
 
-header .navbar a:hover{
-    color:var(--swamp-green);
+header .navbar a:hover {
+    color: var(--swamp-green);
     background-color: #333;
 }
 
-header .profile-info a{
+header .profile-info a {
     font-size: 2rem;
-    color:rgb(100, 98, 234);
+    color: rgb(100, 98, 234);
     margin-left: 1.5rem;
 }
 
-header .profile-info a:hover{
-    color:var(--swamp-green);
+header .profile-info a:hover {
+    color: var(--swamp-green);
 }
 
-header #toggler{
+header #toggler {
     display: none;
     color: white;
 }
 
-header .fa-bars{
+header .fa-bars {
     font-size: 3rem;
-    color:#fff;
+    color: #fff;
     border-radius: .5rem;
-    padding:.5rem 1.5rem;
+    padding: .5rem 1.5rem;
     cursor: pointer;
-    border:.1rem solid rgba(0,0,0,.3);
+    border: .1rem solid rgba(0, 0, 0, .3);
     display: none;
 }
+
 /* мобилка  */
-@media (max-width:991px){
-    
-    html{
+@media (max-width: 991px) {
+
+    html {
         font-size: 55%;
     }
 
-    header{
-        padding:2rem;
+    header {
+        padding: 2rem;
     }
 
-    header .navbar a{
+    header .navbar a {
         text-align: center;
     }
 
-    header .logo{
+    header .logo {
         font-size: 3rem;
     }
 
-    section{
-        padding:2rem;
+    section {
+        padding: 2rem;
     }
 
-    header .profile-info .profile-icon{
+    header .profile-info .profile-icon {
         width: 6vh;
         height: 6vh;
     }
 
 }
 
-@media (max-width:768px){
+@media (max-width: 840px) {
 
-    header .menu{
+    header .menu {
         display: block;
     }
 
@@ -123,106 +127,114 @@ header .fa-bars{
         display: none;
     }
 
-    header .navbar{
-        position:absolute;
-        top:100%; left:0; right:0;
-        background:#fff;
-        border-top: .1rem solid rgba(0,0,0,.1);
+    header .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background: #fff;
+        border-top: .1rem solid rgba(0, 0, 0, .1);
         clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
     }
 
-    header #toggler:checked ~ .navbar{
-        clip-path:polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    header #toggler:checked ~ .navbar {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
     }
 
-    header .navbar a{
-        margin:1.5rem;
-        padding:1.5rem;
+    header .navbar a {
+        margin: 1.5rem;
+        padding: 1.5rem;
         color: #333;
-        background:#fff;
-        border:.1rem solid rgba(0,0,0,.1);
+        background: #fff;
+        border: .1rem solid rgba(0, 0, 0, .1);
         display: block;
     }
 
-    .home .content h3{
+    .home .content h3 {
         font-size: 5rem;
     }
 
-    .home .content span{
+    .home .content span {
         font-size: 2.5rem;
     }
 }
 
-@media (max-width:450px){
-    
-    html{
+@media (max-width: 450px) {
+
+    html {
         font-size: 50%;
     }
 
-    header .logo{
+    header .logo {
         font-size: 3rem;
     }
 
-    .heading{
+    .heading {
         font-size: 3rem;
     }
-    .about .heading{
-        margin-top:200px;
+
+    .about .heading {
+        margin-top: 200px;
     }
-    .bmw .heading{
-        margin-top:200px;
+
+    .bmw .heading {
+        margin-top: 200px;
         margin-right: 0.5rem;
     }
 
-    .profile-info{
+    .profile-info {
         width: 3vh;
         height: 3vh;
         margin-right: 5rem;
     }
 
-    header .profile-info .profile-icon{
+    header .profile-info .profile-icon {
         width: 5vh;
         height: 5vh;
     }
 
 }
 
-@media (max-width:500px){
-.about .heading{
-    margin-top:150px;
-}
-.bmw .heading{
-    margin-top:150px;
-}
-.products .heading{
-    margin-top:150px;
+@media (max-width: 500px) {
+    .about .heading {
+        margin-top: 150px;
+    }
+
+    .bmw .heading {
+        margin-top: 150px;
+    }
+
+    .products .heading {
+        margin-top: 150px;
+    }
+
+    .review .heading {
+        margin-top: 150px;
+    }
+
+    .contact .heading {
+        margin-top: 150px;
+    }
 }
 
-.review .heading{
-    margin-top:150px;
-}
+@media (max-width: 466px) {
+    .about .heading {
+        margin-top: 200px;
+    }
 
-.contact .heading{
-    margin-top:150px;
-}
-}
+    .bmw .heading {
+        margin-top: 200px;
+    }
 
-@media (max-width:466px){
-    .about .heading{
-        margin-top:200px;
+    .products .heading {
+        margin-top: 200px;
     }
-    .bmw .heading{
-        margin-top:200px;
+
+    .review .heading {
+        margin-top: 200px;
     }
-    .products .heading{
-        margin-top:200px;
-    }
-    
-    .review .heading{
-        margin-top:200px;
-    }
-    
-    .contact .heading{
-        margin-top:200px;
+
+    .contact .heading {
+        margin-top: 200px;
     }
 }

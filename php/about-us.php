@@ -2,14 +2,8 @@
     $styles = array("main.css", "header.css", "footer.css", "about-us.css");
     $title = "About";
     require "../php/blocks/header.php";
+    require "../php/blocks/background.php"
 ?>
-    <link rel="stylesheet" href="../css/BackgrundAnim.css">
-    <section class="wrapper">
-        <div id="stars"></div>
-        <div id="stars2"></div>
-        <div id="stars3"></div>
-    </section>
-
     <section class="about" id="about">
         <h1 class="heading"><span> about </span> us </h1>
 
@@ -19,7 +13,7 @@
                 <h3>Feel like a star!</h3>
             </div>
 
-            <div class="contente">
+            <div class="content">
                 <h3>Why choose us?</h3>
                 <p>
                     With our experience behind us, we do not just speak, but give guarantees for the fulfillment of all
@@ -39,5 +33,5 @@
 
     </section>
 <?php
-require "../php/blocks/footer.php";
+    require "../php/blocks/footer.php";
 ?>

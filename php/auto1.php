@@ -1,16 +1,9 @@
 <?php
-$styles = array("main.css", "header.css", "footer.css", "auto.css");
-$title = "Reviews";
-require "../php/blocks/header.php";
+    $styles = array("main.css", "header.css", "footer.css", "auto.css");
+    $title = "Reviews";
+    require "../php/blocks/header.php";
+    require "../php/blocks/background.php";
 ?>
-    <!--Задняя анимация звезд-->
-    <link rel="stylesheet" href="../css/BackgrundAnim.css">
-    <section class="wrapper">
-        <div id="stars"></div>
-        <div id="stars2"></div>
-        <div id="stars3"></div>
-    </section>
-
     <section class="cars" id="">
         <h1 class="heading"> <span> BMW </span> S1000rr </h1>
         <div class="row">
@@ -38,5 +31,5 @@ require "../php/blocks/header.php";
     <section class="cars" id="cars">
     </section>
 <?php
-require "../php/blocks/footer.php";
+    require "../php/blocks/footer.php";
 ?>

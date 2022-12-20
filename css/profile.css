@@ -1,29 +1,29 @@
-:root{
-    --white:#fff;
+* {
+    font-family: Verdana, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
 
-    --light-beige: #EEF3DB;
-    --beige: #DED0A6;
+:root {
+    --white: #fff;
+    --swamp-green: #a8ffc7;
 
     --light-black: #444343;
     --black: #333;
 
-    --box-shadow:0 5px 10px rgba(0,0,0,0.7);
+    --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.7);
     --dark-green: #7B8F49;
-}
-
-*{
-    font-family: Verdana, Tahoma, sans-serif;
-    margin:0; padding:0;
-    box-sizing: border-box;
-    outline: none; border: none;
-    text-decoration: none;
 }
 
 .btn {
     width: 100%;
     border-radius: 5px;
-    padding:10px 30px;
-    color:var(--light-beige);
+    padding: 10px 30px;
+    color: var(--swamp-green);
     display: block;
     text-align: center;
     cursor: pointer;
@@ -32,28 +32,29 @@
     background-color: var(--black);
 }
 
-.btn:hover{
-    background-color: var(--light-black);
+.btn:hover {
+    background: linear-gradient(-45deg, #FFA63D, #FF3D77, #338AFF, #3CF0C5);
+    color: var(--white);
 }
 
-.container{
+.container {
     min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding:20px;
+    padding: 20px;
 }
 
-.container .profile{
-    padding:20px;
-    background-color: var(--beige);
+.container .profile {
+    padding: 20px;
+    background-color: var(--white);
     box-shadow: var(--box-shadow);
     text-align: left;
     width: 30%;
     border-radius: 5px;
 }
 
-.container .profile img{
+.container .profile img {
     height: 100%;
     width: 90%;
     border-radius: 50%;
@@ -63,47 +64,47 @@
     margin: 2% 5% 10% 5%;
 }
 
-.container .profile p{
+.container .profile p {
     margin-bottom: 2vh;
     font-size: 2vh;
     padding: 0.5vh;
-    color:var(--black);
+    color: var(--black);
     border: var(--black) solid 3px;
     border-radius: 5px;
-    background-color: var(--light-beige);
 }
 
-.container .profile p strong{
+.container .profile p strong {
     font-size: 3vh;
 }
 
-@media (max-width:1500px) {
-    .container .profile{
+@media (max-width: 1500px) {
+    .container .profile {
         width: 40%;
     }
 }
 
-@media (max-width:1100px) {
-    .container .profile{
+@media (max-width: 1100px) {
+    .container .profile {
         width: 70%;
     }
 }
 
-@media (max-width:800px) {
-    .container .profile{
+@media (max-width: 800px) {
+    .container .profile {
         width: 80%;
     }
+
     .container .profile p {
         font-size: 1.5vh;
     }
 
-    .container .profile p strong{
+    .container .profile p strong {
         font-size: 2vh;
     }
 }
 
-@media (max-width:600px) {
-    .container .profile{
+@media (max-width: 600px) {
+    .container .profile {
         width: 100%;
     }
 }

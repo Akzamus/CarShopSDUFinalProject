@@ -14,12 +14,10 @@
     --blue: #277FFE;
     --dark-blue: #1368E3;
 
-    --light-beige: #EEF3DB;
-    --beige: #DED0A6;
+    --swamp-green: #a8ffc7;
+    --white: #FFF;
 
-    --light-black: #444343;
     --black: #333;
-
     --red: #FE2727;
 }
 
@@ -34,7 +32,6 @@ a:hover {
 }
 
 body {
-    background: url(../img/backgrounds/background-security.jpg) no-repeat center;
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -48,6 +45,7 @@ body {
     width: 100%;
     position: relative;
 }
+
 form {
     width: 100%;
     padding: 28px;
@@ -61,29 +59,35 @@ form {
     transition: all .3s ease;
     transition-delay: 0s;
 }
+
 form.active {
     transform: translateY(-50%);
     opacity: 1;
     z-index: 200;
     transition-delay: .3s;
 }
+
 .title {
     font-size: 24px;
     font-weight: 600;
     margin-bottom: 20px;
 }
+
 .form-group {
     margin-bottom: 14px;
 }
+
 .form-group label {
     display: inline-block;
     margin-bottom: 4px;
     font-size: 2vh;
 }
+
 .input-group {
     width: 100%;
     position: relative;
 }
+
 .input-group input {
     padding: 12px 40px 12px 20px;
     outline: none;
@@ -107,6 +111,7 @@ form.active {
     transition: all .3s ease;
     font-size: 1.5vh;
 }
+
 .form-group .error-text {
     font-size: 12px;
     color: var(--red);
@@ -120,7 +125,7 @@ form p {
     padding: 12px 0;
     display: block;
     width: 100%;
-    color: var(--beige);
+    color: var(--swamp-green);
     border-radius: 6px;
     cursor: pointer;
     transition: all .3s ease;
@@ -130,6 +135,8 @@ form p {
     margin: 20px 0;
     font-size: 1.5vh;
 }
+
 .btn-submit:hover {
-    background: var(--light-black);
+    background: linear-gradient(-45deg, #FFA63D, #FF3D77, #338AFF, #3CF0C5);
+    color: var(--white);
 }
