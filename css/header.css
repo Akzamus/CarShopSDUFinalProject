@@ -87,8 +87,7 @@ header .fa-bars {
     display: none;
 }
 
-/* мобилка  */
-@media (max-width: 991px) {
+@media (max-width: 1100px) {
 
     html {
         font-size: 55%;
