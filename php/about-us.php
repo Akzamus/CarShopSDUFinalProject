@@ -7,6 +7,14 @@
     <section class="about" id="about">
         <h1 class="heading"><span> about </span> us </h1>
 
+        <h1 class="animated-text">Auto&Moto
+            <span
+                class="txt-rotate"
+                data-period="2000"
+                data-rotate='[ "is the best in the world.", "has the best prices.", "in demand on the market.", "has the best employees." ]'>
+            </span>
+        </h1>
+
         <div class="row">
             <div class="video-container">
                 <video src="../img/automoto.mp4" loop autoplay muted></video>
@@ -32,6 +40,7 @@
         </div>
 
     </section>
+    <script src="../js/animatedText.js"></script>
 <?php
     require "../php/blocks/footer.php";
 ?>

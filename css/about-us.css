@@ -94,3 +94,10 @@
         opacity: 1;
     }
 }
+
+h1.animated-text {
+    font-size: 6em;
+    font-weight: 200;
+    margin: 0.4em 0;
+    color: var(--swamp-green);
+}
