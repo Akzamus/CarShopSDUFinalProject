@@ -16,23 +16,23 @@
     <title>Profile</title>
 </head>
 <body>
-    <div class="container">
+<div class="container">
 
-        <div class="profile">
-            <?php
-                $user_id = $_SESSION["user"]["id"];
-                $select = mysqli_query($connect, "SELECT * FROM `users` WHERE id = '$user_id'") or die('query failed');
-                $user = mysqli_fetch_assoc($select);
-                echo '<img src="..'.$user['avatar'].'">';
-            ?>
-            <p><strong>Full name: </strong><?= $user['full_name'] ?></p>
-            <p><strong>Email: </strong><?= $user['email']?></p>
-            <p><strong>Login: </strong><?= $user['login']?></p>
-            <a href="index.php" class="btn">Home</a>
-            <a href="security/logout.php" class="btn">Logout</a>
-        </div>
-
+    <div class="profile">
+        <?php
+        $user_id = $_SESSION["user"]["id"];
+        $select = mysqli_query($connect, "SELECT * FROM `users` WHERE id = '$user_id'") or die('query failed');
+        $user = mysqli_fetch_assoc($select);
+        echo '<img src="..' . $user['avatar'] . '">';
+        ?>
+        <p><strong>Full name: </strong><?= $user['full_name'] ?></p>
+        <p><strong>Email: </strong><?= $user['email'] ?></p>
+        <p><strong>Login: </strong><?= $user['login'] ?></p>
+        <a href="index.php" class="btn">Home</a>
+        <a href="security/logout.php" class="btn">Logout</a>
     </div>
+
+</div>
 </body>
 </html>
 

@@ -10,7 +10,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?=$title?></title>
+    <title><?= $title ?></title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"/>
     <link rel="stylesheet" href="../css/security.css">
 </head>
@@ -32,7 +32,7 @@
             <label for="password-auth">Password</label>
             <div class="input-group">
                 <input type="password" name="password" id="password-auth" placeholder="Enter your password">
-                <i class='bi bi-lock' ></i>
+                <i class='bi bi-lock'></i>
             </div>
             <span id="password-error-auth" class="error-text"></span>
         </div>
@@ -42,14 +42,13 @@
     </form>
 
 
-
     <form class="register">
         <h2 class="title">Register your account</h2>
 
         <div class="form-group">
             <label for="full-name">Full name</label>
             <div class="input-group">
-                <input  type="text" name="full_name" id="full-name" placeholder="Enter your full name">
+                <input type="text" name="full_name" id="full-name" placeholder="Enter your full name">
                 <i class='bi bi-person'></i>
             </div>
             <span id="full-name-error" class="error-text"></span>
@@ -95,7 +94,7 @@
             <label for="confirm-pass">Confirm password</label>
             <div class="input-group">
                 <input type="password" name="password_confirm" id="confirm-pass" placeholder="Enter password again">
-                <i class='bi bi-lock' ></i>
+                <i class='bi bi-lock'></i>
             </div>
             <span id="password-confirm-error" class="error-text"></span>
         </div>
@@ -105,7 +104,7 @@
     </form>
 </div>
 
-<script src = "../js/jquery-3.6.2.min.js"></script>
-<script src = "../js/security.js"></script>
+<script src="../js/jquery-3.6.2.min.js"></script>
+<script src="../js/security.js"></script>
 </body>
 </html>
